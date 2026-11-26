@@ -1,0 +1,56 @@
+--- course_intake ---
+id              int(11)         NO   
+session         varchar(255)    YES  
+intake_date     date            YES  
+creationDate    date            YES  
+Array
+(
+    [id] => 1
+    [session] => 2026
+    [intake_date] => 2026-01-05
+    [creationDate] => 
+)
+
+--- course_duration ---
+id              int(11)         NO   
+semester        varchar(255)    YES  
+start_date      date            YES  
+end_date        date            YES  
+Array
+(
+    [id] => 1
+    [semester] => 3 months
+    [start_date] => 2026-01-05
+    [end_date] => 2026-03-31
+)
+
+--- courseenrolls ---
+id              int(11)         NO   
+studentRegno    varchar(255)    YES  
+pincode         varchar(255)    YES  
+session         varchar(11)     YES  
+department      varchar(255)    YES  
+semester        varchar(11)     YES  
+course          varchar(255)    YES  
+enrollDate      timestamp       YES  
+Array
+(
+    [id] => 5
+    [studentRegno] => SEU/IS/21/BS/087
+    [pincode] => 747774
+    [session] => 2026
+    [department] => CSE
+    [semester] => 3 months
+    [course] => CSE101
+    [enrollDate] => 2026-02-11 11:44:53
+)
+
+--- department ---
+id              varchar(255)    NO   
+department      varchar(255)    YES  
+Array
+(
+    [id] => BLE
+    [department] => Biological Sciences Department
+)
+

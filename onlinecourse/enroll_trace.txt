@@ -1,0 +1,12 @@
+Specific Enrollment Trace
+Array
+(
+    [id] => 7
+    [studentRegno] => SEU/IS/21/PS/071
+    [pincode] => 326081
+    [session] => 2026-01-05
+    [department] => CSE
+    [semester] => 3 months
+    [course] => CSE104
+    [enrollDate] => 2026-02-12 22:13:07
+)

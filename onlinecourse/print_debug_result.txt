@@ -1,0 +1,18 @@
+Deep Print Debug
+--------------------
+Testing with Enrollment ID: 5
+StudentRegno: SEU/IS/21/BS/087
+Course: CSE101
+Session: 2026
+Department: CSE
+Semester: 3 months
+
+--- Step-by-Step Join Testing ---
+1. JOIN course: SUCCESS
+2a. JOIN course_intake (on id): FAILED
+2b. JOIN course_intake (on intake_date): FAILED
+2c. JOIN course_intake (on session): SUCCESS
+3. JOIN department: SUCCESS
+4. JOIN students: SUCCESS
+5a. JOIN course_duration (on id): FAILED
+5b. JOIN course_duration (on semester): SUCCESS

@@ -1,0 +1,14 @@
+
+Data for department:
+Array
+(
+    [id] => BLE
+    [department] => Biological Sciences Department
+)
+Array
+(
+    [id] => CHE
+    [department] => Chemical Sciences Department
+)
+
+Data for course:

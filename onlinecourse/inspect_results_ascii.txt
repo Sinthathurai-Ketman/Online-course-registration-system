@@ -1,0 +1,70 @@
+--- CONNECTION INFO ---
+Host: localhost
+DB Name: onlinecourse
+Active DB: onlinecourse
+
+--- TABLE STRUCTURE: userlog ---
+id              int(11)         NO                   
+studentRegno    varchar(255)    YES                  
+userip          varchar(255)    YES                  
+loginTime       timestamp       YES        current_timestamp()
+logout          timestamp       YES                  
+status          int(11)         YES                  
+
+--- ROW COUNTS ---
+Total Rows in userlog: 40
+
+--- SAMPLE ROWS (NEWEST TOP) ---
+Array
+(
+    [id] => 50
+    [studentRegno] => SEU/IS/21/PS/071
+    [userip] => ::1
+    [loginTime] => 2026-02-14 13:51:05
+    [logout] => 2026-02-14 13:52:09
+    [status] => 1
+)
+Array
+(
+    [id] => 47
+    [studentRegno] => SEU/IS/21/PS/071
+    [userip] => ::1
+    [loginTime] => 2026-02-14 13:42:28
+    [logout] => 2026-02-14 13:50:43
+    [status] => 1
+)
+Array
+(
+    [id] => 46
+    [studentRegno] => SEU/IS/21/PS/071
+    [userip] => ::1
+    [loginTime] => 2026-02-14 13:41:13
+    [logout] => 2026-02-14 13:42:21
+    [status] => 1
+)
+Array
+(
+    [id] => 45
+    [studentRegno] => SEU/IS/21/PS/079
+    [userip] => ::1
+    [loginTime] => 2026-02-14 13:40:32
+    [logout] => 2026-02-14 13:40:39
+    [status] => 1
+)
+Array
+(
+    [id] => 44
+    [studentRegno] => SEU/IS/21/BS/087
+    [userip] => ::1
+    [loginTime] => 2026-02-14 13:37:17
+    [logout] => 2026-02-14 13:40:12
+    [status] => 1
+)
+
+--- CHECKING FOR OTHER DATABASES ---
+DB: information_schema
+DB: mysql
+DB: onlinecourse
+DB: performance_schema
+DB: phpmyadmin
+DB: test

@@ -1,0 +1,11 @@
+Table: students
+StudentRegno         | varchar(255)        
+studentPhoto         | varchar(255)        
+password             | varchar(255)        
+studentName          | varchar(255)        
+pincode              | varchar(255)        
+session              | varchar(255)        
+department           | varchar(255)        
+semester             | varchar(255)        
+creationdate         | timestamp           
+updationDate         | varchar(255)        

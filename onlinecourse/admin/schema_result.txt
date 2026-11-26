@@ -1,0 +1,16 @@
+
+Table: department
+Field                | Type                 | Null  | Key   | Default    | Extra               
+------------------------------------------------------------------------------------------
+id                   | varchar(255)         | NO    | PRI   |            |                     
+department           | varchar(255)         | YES   |       |            |                     
+
+Table: course
+Field                | Type                 | Null  | Key   | Default    | Extra               
+------------------------------------------------------------------------------------------
+departmentId         | varchar(255)         | YES   | MUL   |            |                     
+courseCode           | varchar(255)         | NO    | PRI   |            |                     
+courseName           | varchar(255)         | YES   |       |            |                     
+noofSeats            | int(11)              | YES   |       |            |                     
+creationDate         | timestamp            | YES   |       | current_timestamp() |                     
+updationDate         | varchar(255)         | YES   |       |            |                     

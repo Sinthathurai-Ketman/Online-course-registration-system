@@ -1,0 +1,32 @@
+[
+    {
+        "courname": "Introduction to Programming",
+        "ccode": "CSE101",
+        "intake_id": "1",
+        "session_year": "2026",
+        "session_date": "2026-01-05",
+        "dept": "Computer Sciences Department",
+        "edate": "2026-02-11 11:44:53",
+        "duration_id": "1",
+        "sem": "3 months",
+        "studentname": "SINTHATHURAI KETMAN",
+        "photo": "ketman.jpeg",
+        "enroll_session": "2026",
+        "enroll_semester": "3 months"
+    },
+    {
+        "courname": "Introduction to Programming",
+        "ccode": "CSE101",
+        "intake_id": "2",
+        "session_year": "2026",
+        "session_date": "2026-06-08",
+        "dept": "Computer Sciences Department",
+        "edate": "2026-02-11 11:44:53",
+        "duration_id": "1",
+        "sem": "3 months",
+        "studentname": "SINTHATHURAI KETMAN",
+        "photo": "ketman.jpeg",
+        "enroll_session": "2026",
+        "enroll_semester": "3 months"
+    }
+]
